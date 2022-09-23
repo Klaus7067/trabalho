@@ -1,0 +1,174 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container-header-html nav {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.container-header-html a {
+    text-decoration: none;
+}
+
+.container-header-html a:hover {
+
+    color: yellow;
+}
+
+.minha-foto {
+    width: 190px;
+    height: 190px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 900px;
+}
+
+.meu-paragrafo {
+    color: white;
+}
+
+.my-box {
+    margin: 10px;
+    border: 2px;
+    padding-left: 10px;
+}
+
+.meu-titulo {
+    color: white;
+    /* text-align: center; */
+    padding: 2px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.descrição {
+    color: white;
+}
+
+.container-hobbie nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.container-hobbie a {
+    text-decoration: none;
+
+}
+
+.container-hobbie a:hover {
+    color: yellow;
+}
+
+.todo-texto-hobbie {
+    border: 20px solid white;
+    margin-top: 40px;
+    padding: 90px;
+    background-color: bisque;
+}
+
+.todo-texto-hobbie h1 {
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+.meu-h1 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.foto-harry {
+    width: 400px;
+    height: 300px;
+    border: 10px solid white;
+    border-color: black;
+
+}
+
+.foto-fbi {
+    width: 350px;
+    height: 300px;
+    border: 10px solid white;
+    border-color: black;
+
+}
+
+.foto-pontoCego {
+    width: 400px;
+    height: 300px;
+    border: 10px solid white;
+    border-color: black;
+
+}
+
+.foto-Internacional {
+    width: 400px;
+    height: 320px;
+    text-align: right;
+    border: 10px solid white;
+    text-align: start;
+    border-color: black;
+}
+
+
+.container-formulario a {
+    text-decoration: none;
+}
+
+.container-formulario a:hover {
+    color: yellow;
+}
+
+.container-formulario nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.modelo {
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+
+.nome {
+    padding: 2px;
+    margin: 2px;
+    background-color: #FFE4B5;
+    border-radius: 5px;
+}
+
+.email {
+    padding: 2px;
+    margin: 2px;
+    background-color: #FFE4B5;
+    border-radius: 5px;
+}
+
+.minha-caixa {
+    text-align: start;
+    background-color: #FFE4B5;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.container-meu-botão {
+    text-align: center;
+
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- no header eu coloquei uma div para "agrupar" meus links e poder estilizar eles todos de uma só vez  -->
+
+    <header>
+        <div class="container-formulario">
+            <nav> <button><a href="index.html">Quem é você?</a></button>
+                <button><a href="hobbies.html">Hobbies e Interesses</button></a>
+                <button><a href="contact.html">Formulário para Contato</button></a>
+            </nav>
+        </div>
+
+        <hr>
+    </header>
+
+    <!-- no main eu coloquei um título, fiz um formulário, criei uma class para estilizar com o css -->
+
+    <main class="modelo">
+        <h1>Formulário para Contato</h1>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" class="nome" />
+            </div>
+            <div>
+                <label for="email"><strong>E-mail:</strong></label>
+                <input type="email" class="email" />
+
+            </div>
+
+            <br>
+            <textarea placeholder="escreva aqui" name="" class="minha-caixa" cols="30" rows="10"></textarea>
+    </main>
+    </form>
+
+    <br>
+
+    <!-- no footer só coloquei o botão para "enviar" ou submeter a mensagem, email e nome de quem quer fazer contato comigo e deixei uma class para estilizar com a folha css. -->
+
+    <footer class="container-meu-botão">
+        <button onClick="enviarMensagem()">Enviar</button>
+    </footer>
+
+</body>
+
+</html>
